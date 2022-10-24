@@ -112,7 +112,7 @@ p {
   display: flex;
   gap: 5px;
   position: relative;
-  top: 55px;
+  top: 30px;
 }
 
 .show--answer {
@@ -120,9 +120,10 @@ p {
   background-color: transparent;
   border-radius: 5px;
   border-color: white;
-  width: 100%;
+  width: 60%;
   position: relative;
-  top: 50px;
+  top: 10px;
+  align-self: center;
 }
 
 .bookmark--chooser {
