@@ -1,0 +1,22 @@
+.profile--page {
+  /* border: 2px black solid; */
+  display: flex;
+  position: relative;
+  top: 150px;
+}
+
+.user--pic {
+  position: relative;
+  border-radius: 50%;
+  width: auto;
+  border: transparent;
+  width: 170px;
+  height: 170px;
+  box-shadow: 16px 14px 20px #0000008c;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 15px;
+}
