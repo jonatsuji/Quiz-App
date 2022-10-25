@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <script src="/index.js" defer></script>
     <title>Quiz-App</title>
   </head>
   <body>
@@ -15,21 +16,27 @@
     </header>
     <main>
       <section class="question--cards">
-        <div class="first--question">
+        <div class="single-question">
           <h2>Q1: Which selector do I use to style my main header?</h2>
           <button class="show--answer" aria-label="show's the answer">
             Show Answer
           </button>
+          <box class="box__answer--hidden">
+            "h1"
+          </box>
           <div class="tags">
             <p>#css</p>
             <p>#selector</p>
             <p>#styles</p>
           </div>
+          <box class="box__answer box__answer--hidden" data-js="box__answer">
+            "h1"
+          </box>
           <img src="/images/bookmark-default.png" class="bookmark--chooser" alt="bookmark-not-checked"/>
         </div>
-        <div class="second--question">
+        <div class="single-question" data-js="single-question">
           <h2>Q2: Name two attributes that are self-closing!</h2>
-          <button class="show--answer" aria-label="show's the answer">
+          <button class="show-answer" aria-label="shows the answer">
             Show Answer
           </button>
           <div class="tags">
@@ -37,11 +44,14 @@
             <p>#attributes</p>
             <p>#semantic</p>
           </div>
+          <box class="box__answer box__answer--hidden" data-js="box__answer">
+            "h1"
+          </box>
           <img src="/images/bookmark-gewählt.png" class="bookmark--chooser" alt="bookmark-checked"/>
         </div>
-        <div class="third--question">
+        <div class="single-question">
           <h2>Q3: What ending has a Cascade-Style-Sheet file?</h2>
-          <button class="show--answer" aria-label="show's the answer">
+          <button class="show--answer" data-js="show--answer" aria-label="shows the answer">
             Show Answer
           </button>
           <div class="tags">
@@ -49,11 +59,14 @@
             <p>#styles</p>
             <p>#cascade</p>
           </div>
+          <box class="box__answer box__answer--hidden" data-js="box__answer">
+            "h1"
+          </box>
           <img src="/images/bookmark-default.png" class="bookmark--chooser" alt="bookmark-not-checked"/>
         </div>
-        <div class="fourth--question">
+        <div class="single-question">
           <h2>Q4: What means "a11y?"</h2>
-          <button class="show--answer" aria-label="show's the answer">
+          <button class="show--answer" aria-label="shows the answer">
             Show Answer
           </button>
           <div class="tags">
@@ -63,9 +76,9 @@
           </div>
           <img src="/images/bookmark-default.png" class="bookmark--chooser" alt="bookmark-not-checked"/>
         </div>
-        <div class="fifth--question">
+        <div class="single-question">
           <h2>Q5: Name three pseudo classes</h2>
-          <button class="show--answer" aria-label="show's the answer">
+          <button class="show--answer" aria-label="shows the answer">
             Show Answer
           </button>
           <div class="tags">
@@ -82,7 +95,7 @@
         <a
           type="button"
           href="/index_homepage.html"
-          class="homepage">
+          class="homepage homepage--highlighted">
           <img
             src="/images/hauptmenü-gewählt.png"
             alt="hauptmenü-gewählt"/>
