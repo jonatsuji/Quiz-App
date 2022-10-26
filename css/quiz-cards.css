@@ -21,14 +21,6 @@
   align-self: center;
 }
 
-p {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  border-radius: 5px;
-  background-color: lightgray;
-  padding: 3px;
-}
-
 .single-question {
   border: 3px black dotted;
   position: relative;
@@ -65,8 +57,16 @@ p {
   display: flex;
   gap: 5px;
   position: relative;
-  top: 160px;
+  top: 165px;
   right: 200px;
+}
+
+p {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 3px;
 }
 
 .bookmark--chooser {
