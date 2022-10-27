@@ -21,6 +21,17 @@
   align-self: center;
 }
 
+.show--answer2 {
+  font-family: Fuzzy_Bubbles;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: white;
+  width: 60%;
+  position: relative;
+  top: 10px;
+  align-self: center;
+}
+
 p {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -78,7 +89,7 @@ p {
   top: 15px;
 }
 
-.box__answer {
+.box__answer1 {
   background-color: lightcyan;
   border-radius: 15px;
   align-self: center;
@@ -93,6 +104,25 @@ p {
   border: 1px black solid;
 }
 
-.box__answer--hidden {
+.box__answer1--hidden {
+  visibility: hidden;
+}
+
+.box__answer2 {
+  background-color: lightcyan;
+  border-radius: 15px;
+  align-self: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px;
+  width: 200px;
+  top: 20px;
+  font-size: 15px;
+  border: 1px black solid;
+}
+
+.box__answer2--hidden {
   visibility: hidden;
 }
