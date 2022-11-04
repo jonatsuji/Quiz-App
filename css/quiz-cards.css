@@ -82,11 +82,9 @@ p {
 
 .bookmark--chooser {
   display: flex;
-  position: relative;
+  align-self: flex-end;
   height: 30px;
   width: 30px;
-  left: 240px;
-  top: 15px;
 }
 
 .box__answer1 {
