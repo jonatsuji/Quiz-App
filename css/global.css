@@ -88,8 +88,9 @@ footer {
 
 .homepage,
 .bookmarks,
-.user--profile {
-  background-color: lightgray;
+.user--profile,
+.create-card {
+  background-color: rgb(228, 228, 228);
   display: flex;
   justify-content: center;
   gap: 5px;
@@ -101,12 +102,15 @@ footer {
 }
 
 .homepage__button--highlighted {
-  background-color: rgb(162, 162, 214);
+  background-color: rgb(102, 224, 100);
 }
 
 .bookmarks__button--highlighted {
-  background-color: rgb(162, 162, 214);
+  background-color: rgb(102, 224, 100);
 }
 .user--profile__button--highlighted {
-  background-color: rgb(162, 162, 214);
+  background-color: rgb(102, 224, 100);
+}
+.user--plus__button--highlighted {
+  background-color: rgb(102, 224, 100);
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/base.css" />
+    <title>Quiz-App</title>
+  </head>
+  <body>
+    <header>
+      <section class="head--box">
+        <h1>Quiz-App</h1>
+        <h3>create Card</h3>
+      </section>
+    </header>
+    <main>
+        <form>
+            <h4>Create your own quiz-card with the following form:</h4>
+            <fieldset>
+                <legend>Content:</legend>
+
+                <label for="question">Question:</label>
+                <textarea name="question" id="question" placeholder="type in your question..."></textarea>
+            
+                <label for="answer">Answer:</label>
+                <textarea name="answer" id="answer" placeholder="type in your answer..."></textarea>
+            
+            </fieldset>
+            <fieldset>
+                <legend>Tags</legend>
+
+                <label for="form-tags">Give your card some fitting tags:</label>
+                <input name="form-tags" id="form-tags"/>
+            
+            </fieldset>
+            <button class="form-submit" type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <nav class="navigation">
+            <a type="button" href="/index.html" class="homepage">
+              <img src="/images/hauptmenue-default.png" alt="hauptmenü-gewählt" />
+            </a>
+            <a type="button" href="/bookmarks.html" class="bookmarks">
+              <img src="/images/bookmark-default.png" alt="bookmark-default" />
+            </a>
+            <a type="button" href="/form.html" class="create-card user--plus__button--highlighted">
+              <img src="/images/plus_gewaehlt.png" alt="create-card" />
+            </a>
+            <a
+              type="button"
+              href="/profile.html"
+              class="user--profile"
+            >
+              <img src="/images/user-default.png" alt="user-default" />
+            </a>
+    </footer>
+  </body>
+</html>
